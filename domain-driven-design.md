@@ -1,3 +1,33 @@
+## Motivation
+- Developers are too wrapped up with technology and trying to solve problems using technology rather than careful design and thought
+- Database is given too much priority, solutions are centered around database and data model rather than business processes and operations
+- Differences between mental model that the business owns and the software that developers deliver because developers dont give enough consideration to naming objects and operations
+- Housing busness logic in interface or persistence components or persistence operations between business logic
+- Locking database queries
+- Wrong abstractions to address current and imagined future needs, over-generalizing solutions
+
+## Spaces
+
+**Problem Space**
+
+* perfrom high-level strategic analysis and design within constrains for a given project.
+* discuss project drivers, goals and risks
+* Context Maps work very well in problem space discussions
+
+**Solution Space**
+
+* implement the solution that problem space discussions identify as *Core Domain*
+
+## Strategic Design
+- **Bounded Context** 
+- segregate domain models and create ubiquitous language
+- Semantic contextual boundary (problem space to solution space) within which each component of the software model has a specific meaning, plays a specfic role and performs specific things
+- Core Domain
+- Subdomains
+- Context Mapping - integrate multiple bounded contexts, define relationships and technical mechanisms
+
+## Tactical Design
+
 ## Glossary
 - Bounded Context
 - Domain Activities
